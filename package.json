@@ -1,0 +1,33 @@
+{
+  "name": "object-assert",
+  "version": "0.0.1",
+  "description": "Store and retreive active connections from multiple locations in your code-base.",
+  "main": "./index.js",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-browserify": "^0.5.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.1",
+    "jaribu": "^0.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silverbucket/object-assert.git"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/jaribu"
+  },
+  "keywords": [
+    "object",
+    "assert",
+    "compare",
+    "deep",
+    "equals"
+  ],
+  "author": "Nick Jennings <nick@silverbucket.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/silverbucket/object-assert/issues"
+  },
+  "homepage": "https://github.com/silverbucket/object-assert"
+}
