@@ -1,14 +1,14 @@
 {
   "name": "object-assert",
-  "version": "0.0.1",
-  "description": "Store and retreive active connections from multiple locations in your code-base.",
+  "version": "1.0.0",
+  "description": "compares objects",
   "main": "./index.js",
   "devDependencies": {
-    "gulp": "^3.8.10",
-    "gulp-browserify": "^0.5.0",
-    "gulp-rename": "^1.2.0",
-    "gulp-uglify": "^1.0.1",
-    "jaribu": "^0.2.2"
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "jaribu": "^2.2.1"
   },
   "repository": {
     "type": "git",

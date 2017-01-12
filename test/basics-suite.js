@@ -55,6 +55,28 @@ function getTests() {
         test.assert(env.mod(co, oco), true);
       }
     },
+
+    {
+      desc: '# bad complex object',
+      run: function (env, test) {
+        var co = {
+          foo: 'bar',
+          bad: 'obj',
+          this: true,
+          me: {
+            o: {
+              me: {
+                o: [true, false, true, undefined, 'this', 'that', true, 9]
+              }
+            }
+          }
+        };
+        var oco = JSON.stringify(co);
+        oco = JSON.parse(oco);
+        oco.bad = true;
+        test.assert(env.mod(co, oco), false);
+      }
+    }
   ];
 }
 
